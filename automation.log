@@ -1834,3 +1834,54 @@ Last Cycle: 2025-11-19T19:44:20.561Z
 [2025-11-20T13:23:26.931Z] [INFO] ============================================================
 [2025-11-20T13:23:26.931Z] [INFO] Publishing 25 ads across 1 account(s)
 [2025-11-20T13:23:26.931Z] [INFO] Product type: curtains
+[2025-11-20T17:36:09.855Z] [INFO] ============================================================
+[2025-11-20T17:36:09.870Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T17:36:09.870Z] [INFO] ============================================================
+[2025-11-20T17:36:09.870Z] [INFO] Mode: PRODUCTION
+[2025-11-20T17:36:09.870Z] [INFO] Test Mode: DISABLED
+[2025-11-20T17:36:09.871Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T17:36:09.871Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T17:36:09.871Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T17:36:09.871Z] [INFO] ============================================================
+
+[2025-11-20T17:36:09.871Z] [INFO] Step 1: Product type selection...
+[2025-11-20T17:36:11.636Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T17:36:11.636Z] [INFO] Step 2: City selection...
+[2025-11-20T17:36:12.782Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T17:36:12.782Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T17:36:12.783Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T17:36:12.783Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T17:36:12.784Z] [INFO] ✓ State manager initialized
+[2025-11-20T17:36:12.784Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T17:36:12.784Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T17:36:12.784Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T17:36:12.784Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T17:36:12.784Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T17:36:12.784Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T17:36:12.784Z] [INFO] Timestamp: 2025-11-20T17:36:12.784Z
+[2025-11-20T17:36:12.784Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T17:36:12.784Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T17:36:14.214Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T17:36:14.214Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T17:36:39.661Z] [INFO] ✓ No deletion needed
+[2025-11-20T17:36:39.667Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T17:36:39.667Z] [INFO] 
+============================================================
+[2025-11-20T17:36:39.667Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T17:36:39.667Z] [INFO] ============================================================
+[2025-11-20T17:36:39.667Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T17:36:39.667Z] [INFO] Product type: curtains
