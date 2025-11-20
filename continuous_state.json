@@ -1,9 +1,9 @@
 {
-  "currentCycle": 8,
-  "lastCycleTimestamp": "2025-11-19T19:44:20.561Z",
+  "currentCycle": 9,
+  "lastCycleTimestamp": "2025-11-20T16:22:32.514Z",
   "lastDeletionTimestamp": null,
   "totalPublished": 2,
-  "totalFailed": 198,
+  "totalFailed": 223,
   "totalDeleted": 0,
   "accountStats": {
     "7 (901) 078-57-80 Ra13052006": {
@@ -14,7 +14,7 @@
     "test acc": {
       "totalPublished": 0,
       "totalFailed": 25,
-      "cycles": 3
+      "cycles": 4
     }
   },
   "cycleHistory": [
@@ -73,8 +73,15 @@
       "published": 2,
       "failed": 23,
       "duration": 0
+    },
+    {
+      "cycleNumber": 9,
+      "timestamp": "2025-11-20T16:22:32.514Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 0
     }
   ],
   "startedAt": "2025-11-04T16:56:23.643Z",
-  "lastUpdated": "2025-11-19T19:44:20.562Z"
+  "lastUpdated": "2025-11-20T16:22:32.515Z"
 }
