@@ -1,0 +1,1836 @@
+[2025-11-04T16:56:14.209Z] [INFO] ============================================================
+[2025-11-04T16:56:14.215Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-04T16:56:14.215Z] [INFO] ============================================================
+[2025-11-04T16:56:14.215Z] [INFO] Mode: PRODUCTION
+[2025-11-04T16:56:14.215Z] [INFO] Test Mode: DISABLED
+[2025-11-04T16:56:14.215Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-04T16:56:14.215Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-04T16:56:14.215Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-04T16:56:14.215Z] [INFO] ============================================================
+
+[2025-11-04T16:56:14.215Z] [INFO] Step 1: City selection...
+[2025-11-04T16:56:23.641Z] [INFO] ✓ Using 3000 addresses from Ростов-на-Дону
+
+[2025-11-04T16:56:23.641Z] [INFO] Step 2: Loading account configurations...
+[2025-11-04T16:56:23.643Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-04T16:56:23.643Z] [INFO] Step 3: Initializing state manager...
+[2025-11-04T16:56:23.643Z] [INFO] ✓ State manager initialized
+[2025-11-04T16:56:23.644Z] [INFO] Current state:
+Cycle: 0
+Total Published: 0
+Total Failed: 0
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+
+[2025-11-04T16:56:23.644Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-04T16:56:23.644Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-04T16:56:23.644Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-04T16:56:23.644Z] [INFO] CYCLE 1 STARTING
+[2025-11-04T16:56:23.644Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-04T16:56:23.644Z] [INFO] Timestamp: 2025-11-04T16:56:23.644Z
+[2025-11-04T16:56:23.644Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-04T16:56:23.644Z] [INFO] Reading ads from Google Sheets...
+[2025-11-04T16:56:25.609Z] [INFO] ✓ Read 290 total ads from sheet
+[2025-11-04T16:56:25.609Z] [INFO] Checking if ad deletion is needed...
+[2025-11-04T16:58:33.460Z] [ERROR] Error checking ads for 7 (901) 078-57-80 Ra13052006: Execution context was destroyed, most likely because of a navigation.
+[2025-11-04T16:58:33.462Z] [INFO] ✓ No deletion needed
+[2025-11-04T16:58:33.462Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-04T16:58:33.462Z] [INFO] 
+============================================================
+[2025-11-04T16:58:33.462Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-04T16:58:33.462Z] [INFO] ============================================================
+[2025-11-04T16:58:33.462Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-04T16:58:33.464Z] [INFO] ============================================================
+[2025-11-04T16:58:33.464Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-04T16:58:33.464Z] [INFO] Published: 0, Failed: 25
+[2025-11-04T16:58:33.464Z] [INFO] ============================================================
+
+[2025-11-04T16:58:33.464Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-04T16:58:33.464Z] [INFO] Next cycle will start at: 2025-11-05T16:58:33.464Z
+
+[2025-11-04T17:00:53.157Z] [INFO] ============================================================
+[2025-11-04T17:00:53.161Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-04T17:00:53.161Z] [INFO] ============================================================
+[2025-11-04T17:00:53.161Z] [INFO] Mode: PRODUCTION
+[2025-11-04T17:00:53.161Z] [INFO] Test Mode: DISABLED
+[2025-11-04T17:00:53.161Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-04T17:00:53.161Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-04T17:00:53.161Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-04T17:00:53.161Z] [INFO] ============================================================
+
+[2025-11-04T17:00:53.161Z] [INFO] Step 1: City selection...
+[2025-11-04T17:00:57.210Z] [INFO] ✓ Using 3000 addresses from Ростов-на-Дону
+
+[2025-11-04T17:00:57.211Z] [INFO] Step 2: Loading account configurations...
+[2025-11-04T17:00:57.212Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-04T17:00:57.212Z] [INFO] Step 3: Initializing state manager...
+[2025-11-04T17:00:57.213Z] [INFO] ✓ State manager initialized
+[2025-11-04T17:00:57.213Z] [INFO] Current state:
+Cycle: 1
+Total Published: 0
+Total Failed: 25
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-04T16:58:33.463Z
+
+[2025-11-04T17:00:57.214Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-04T17:00:57.214Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-04T17:00:57.214Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-04T17:00:57.214Z] [INFO] CYCLE 2 STARTING
+[2025-11-04T17:00:57.214Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-04T17:00:57.214Z] [INFO] Timestamp: 2025-11-04T17:00:57.214Z
+[2025-11-04T17:00:57.214Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-04T17:00:57.214Z] [INFO] Reading ads from Google Sheets...
+[2025-11-04T17:00:59.121Z] [INFO] ✓ Read 290 total ads from sheet
+[2025-11-04T17:00:59.122Z] [INFO] Checking if ad deletion is needed...
+[2025-11-04T17:01:11.801Z] [INFO] ✓ No deletion needed
+[2025-11-04T17:01:11.804Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-04T17:01:11.804Z] [INFO] 
+============================================================
+[2025-11-04T17:01:11.804Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-04T17:01:11.804Z] [INFO] ============================================================
+[2025-11-04T17:01:11.804Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-04T17:01:11.806Z] [INFO] ============================================================
+[2025-11-04T17:01:11.806Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-04T17:01:11.806Z] [INFO] Published: 0, Failed: 25
+[2025-11-04T17:01:11.806Z] [INFO] ============================================================
+
+[2025-11-04T17:01:11.806Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-04T17:01:11.806Z] [INFO] Next cycle will start at: 2025-11-05T17:01:11.806Z
+
+[2025-11-04T17:04:46.849Z] [INFO] ============================================================
+[2025-11-04T17:04:46.855Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-04T17:04:46.855Z] [INFO] ============================================================
+[2025-11-04T17:04:46.855Z] [INFO] Mode: PRODUCTION
+[2025-11-04T17:04:46.855Z] [INFO] Test Mode: DISABLED
+[2025-11-04T17:04:46.855Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-04T17:04:46.855Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-04T17:04:46.855Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-04T17:04:46.855Z] [INFO] ============================================================
+
+[2025-11-04T17:04:46.855Z] [INFO] Step 1: City selection...
+[2025-11-04T17:04:50.035Z] [INFO] ✓ Using 3000 addresses from Ростов-на-Дону
+
+[2025-11-04T17:04:50.035Z] [INFO] Step 2: Loading account configurations...
+[2025-11-04T17:04:50.038Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-04T17:04:50.038Z] [INFO] Step 3: Initializing state manager...
+[2025-11-04T17:04:50.039Z] [INFO] ✓ State manager initialized
+[2025-11-04T17:04:50.039Z] [INFO] Current state:
+Cycle: 2
+Total Published: 0
+Total Failed: 50
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-04T17:01:11.805Z
+
+[2025-11-04T17:04:50.039Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-04T17:04:50.039Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-04T17:04:50.039Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-04T17:04:50.039Z] [INFO] CYCLE 3 STARTING
+[2025-11-04T17:04:50.039Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-04T17:04:50.040Z] [INFO] Timestamp: 2025-11-04T17:04:50.040Z
+[2025-11-04T17:04:50.040Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-04T17:04:50.040Z] [INFO] Reading ads from Google Sheets...
+[2025-11-04T17:04:51.715Z] [INFO] ✓ Read 290 total ads from sheet
+[2025-11-04T17:04:51.715Z] [INFO] Checking if ad deletion is needed...
+[2025-11-04T17:05:00.217Z] [INFO] ✓ No deletion needed
+[2025-11-04T17:05:00.222Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-04T17:05:00.222Z] [INFO] 
+============================================================
+[2025-11-04T17:05:00.222Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-04T17:05:00.222Z] [INFO] ============================================================
+[2025-11-04T17:05:00.222Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-04T17:08:21.001Z] [INFO] ============================================================
+[2025-11-04T17:08:21.003Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-04T17:08:21.003Z] [INFO] Published: 0, Failed: 25
+[2025-11-04T17:08:21.003Z] [INFO] ============================================================
+
+[2025-11-04T17:08:21.003Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-04T17:08:21.003Z] [INFO] Next cycle will start at: 2025-11-05T17:08:21.003Z
+
+[2025-11-04T17:31:36.971Z] [INFO] ============================================================
+[2025-11-04T17:31:36.977Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-04T17:31:36.977Z] [INFO] ============================================================
+[2025-11-04T17:31:36.977Z] [INFO] Mode: PRODUCTION
+[2025-11-04T17:31:36.977Z] [INFO] Test Mode: DISABLED
+[2025-11-04T17:31:36.977Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-04T17:31:36.977Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-04T17:31:36.977Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-04T17:31:36.977Z] [INFO] ============================================================
+
+[2025-11-04T17:31:36.977Z] [INFO] Step 1: City selection...
+[2025-11-04T17:31:40.341Z] [INFO] ✓ Using 3000 addresses from Ростов-на-Дону
+
+[2025-11-04T17:31:40.341Z] [INFO] Step 2: Loading account configurations...
+[2025-11-04T17:31:40.343Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-04T17:31:40.343Z] [INFO] Step 3: Initializing state manager...
+[2025-11-04T17:31:40.344Z] [INFO] ✓ State manager initialized
+[2025-11-04T17:31:40.344Z] [INFO] Current state:
+Cycle: 3
+Total Published: 0
+Total Failed: 75
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-04T17:08:20.998Z
+
+[2025-11-04T17:31:40.344Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-04T17:31:40.344Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-04T17:31:40.344Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-04T17:31:40.344Z] [INFO] CYCLE 4 STARTING
+[2025-11-04T17:31:40.344Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-04T17:31:40.344Z] [INFO] Timestamp: 2025-11-04T17:31:40.344Z
+[2025-11-04T17:31:40.344Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-04T17:31:40.344Z] [INFO] Reading ads from Google Sheets...
+[2025-11-04T17:31:41.995Z] [INFO] ✓ Read 290 total ads from sheet
+[2025-11-04T17:31:41.995Z] [INFO] Checking if ad deletion is needed...
+[2025-11-04T17:31:50.819Z] [INFO] ✓ No deletion needed
+[2025-11-04T17:31:50.825Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-04T17:31:50.825Z] [INFO] 
+============================================================
+[2025-11-04T17:31:50.825Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-04T17:31:50.825Z] [INFO] ============================================================
+[2025-11-04T17:31:50.825Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-04T17:32:39.078Z] [INFO] ============================================================
+[2025-11-04T17:32:39.078Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-04T17:32:39.078Z] [INFO] Published: 0, Failed: 25
+[2025-11-04T17:32:39.078Z] [INFO] ============================================================
+
+[2025-11-04T17:32:39.078Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-04T17:32:39.078Z] [INFO] Next cycle will start at: 2025-11-05T17:32:39.078Z
+
+[2025-11-04T20:32:39.465Z] [INFO] ⏳ Waiting... 20h 59m remaining until next cycle
+[2025-11-04T20:58:34.308Z] [INFO] ⏳ Waiting... 19h 59m remaining until next cycle
+[2025-11-04T21:08:21.759Z] [INFO] ⏳ Waiting... 19h 59m remaining until next cycle
+[2025-11-04T21:58:34.302Z] [INFO] ⏳ Waiting... 18h 59m remaining until next cycle
+[2025-11-04T21:58:58.084Z] [INFO] ============================================================
+[2025-11-04T21:58:58.088Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-04T21:58:58.089Z] [INFO] ============================================================
+[2025-11-04T21:58:58.089Z] [INFO] Mode: PRODUCTION
+[2025-11-04T21:58:58.089Z] [INFO] Test Mode: DISABLED
+[2025-11-04T21:58:58.089Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-04T21:58:58.089Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-04T21:58:58.089Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-04T21:58:58.089Z] [INFO] ============================================================
+
+[2025-11-04T21:58:58.089Z] [INFO] Step 1: City selection...
+[2025-11-04T21:59:02.658Z] [INFO] ✓ Using 3000 addresses from Ростов-на-Дону
+
+[2025-11-04T21:59:02.659Z] [INFO] Step 2: Loading account configurations...
+[2025-11-04T21:59:02.659Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-04T21:59:02.660Z] [INFO] Step 3: Initializing state manager...
+[2025-11-04T21:59:02.661Z] [INFO] ✓ State manager initialized
+[2025-11-04T21:59:02.661Z] [INFO] Current state:
+Cycle: 4
+Total Published: 0
+Total Failed: 100
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-04T17:32:39.075Z
+
+[2025-11-04T21:59:02.661Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-04T21:59:02.661Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-04T21:59:02.661Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-04T21:59:02.661Z] [INFO] CYCLE 5 STARTING
+[2025-11-04T21:59:02.661Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-04T21:59:02.661Z] [INFO] Timestamp: 2025-11-04T21:59:02.661Z
+[2025-11-04T21:59:02.661Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-04T21:59:02.661Z] [INFO] Reading ads from Google Sheets...
+[2025-11-04T21:59:03.459Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-04T21:59:03.459Z] [INFO] Checking if ad deletion is needed...
+[2025-11-04T22:04:12.317Z] [INFO] ✓ No deletion needed
+[2025-11-04T22:04:12.322Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-04T22:04:12.322Z] [INFO] 
+============================================================
+[2025-11-04T22:04:12.322Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-04T22:04:12.322Z] [INFO] ============================================================
+[2025-11-04T22:04:12.322Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-04T22:04:31.637Z] [INFO] ============================================================
+[2025-11-04T22:04:31.637Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-04T22:04:31.637Z] [INFO] Published: 0, Failed: 25
+[2025-11-04T22:04:31.637Z] [INFO] ============================================================
+
+[2025-11-04T22:04:31.637Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-04T22:04:31.637Z] [INFO] Next cycle will start at: 2025-11-05T22:04:31.637Z
+
+[2025-11-04T23:04:32.442Z] [INFO] ⏳ Waiting... 22h 59m remaining until next cycle
+[2025-11-05T00:04:31.787Z] [INFO] ⏳ Waiting... 21h 59m remaining until next cycle
+[2025-11-19T00:40:29.982Z] [INFO] ============================================================
+[2025-11-19T00:40:29.986Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T00:40:29.986Z] [INFO] ============================================================
+[2025-11-19T00:40:29.986Z] [INFO] Mode: PRODUCTION
+[2025-11-19T00:40:29.986Z] [INFO] Test Mode: DISABLED
+[2025-11-19T00:40:29.986Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T00:40:29.986Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T00:40:29.986Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T00:40:29.986Z] [INFO] ============================================================
+
+[2025-11-19T00:40:29.987Z] [INFO] Step 1: City selection...
+[2025-11-19T00:40:32.015Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T00:40:32.015Z] [INFO] Step 2: Loading account configurations...
+[2025-11-19T00:40:32.015Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T00:40:32.015Z] [INFO] Step 3: Initializing state manager...
+[2025-11-19T00:40:32.016Z] [INFO] ✓ State manager initialized
+[2025-11-19T00:40:32.016Z] [INFO] Current state:
+Cycle: 5
+Total Published: 0
+Total Failed: 125
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-04T22:04:31.636Z
+
+[2025-11-19T00:40:32.016Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T00:40:32.016Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-19T00:40:32.016Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T00:40:32.016Z] [INFO] CYCLE 6 STARTING
+[2025-11-19T00:40:32.016Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T00:40:32.016Z] [INFO] Timestamp: 2025-11-19T00:40:32.016Z
+[2025-11-19T00:40:32.016Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T00:40:32.016Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T00:40:33.468Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-19T00:40:33.469Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T00:40:40.712Z] [INFO] ✓ No deletion needed
+[2025-11-19T00:40:40.712Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T00:40:40.712Z] [INFO] 
+============================================================
+[2025-11-19T00:40:40.713Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T00:40:40.713Z] [INFO] ============================================================
+[2025-11-19T00:40:40.713Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T00:48:43.401Z] [INFO] ============================================================
+[2025-11-19T00:48:43.407Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T00:48:43.407Z] [INFO] ============================================================
+[2025-11-19T00:48:43.407Z] [INFO] Mode: PRODUCTION
+[2025-11-19T00:48:43.407Z] [INFO] Test Mode: DISABLED
+[2025-11-19T00:48:43.407Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T00:48:43.407Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T00:48:43.407Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T00:48:43.407Z] [INFO] ============================================================
+
+[2025-11-19T00:48:43.407Z] [INFO] Step 1: City selection...
+[2025-11-19T00:48:45.243Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T00:48:45.243Z] [INFO] Step 2: Loading account configurations...
+[2025-11-19T00:48:45.244Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T00:48:45.244Z] [INFO] Step 3: Initializing state manager...
+[2025-11-19T00:48:45.245Z] [INFO] ✓ State manager initialized
+[2025-11-19T00:48:45.245Z] [INFO] Current state:
+Cycle: 5
+Total Published: 0
+Total Failed: 125
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-04T22:04:31.636Z
+
+[2025-11-19T00:48:45.246Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T00:48:45.246Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-19T00:48:45.246Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T00:48:45.246Z] [INFO] CYCLE 6 STARTING
+[2025-11-19T00:48:45.246Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T00:48:45.246Z] [INFO] Timestamp: 2025-11-19T00:48:45.246Z
+[2025-11-19T00:48:45.246Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T00:48:45.246Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T00:48:46.664Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-19T00:48:46.664Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T00:48:55.207Z] [INFO] ✓ No deletion needed
+[2025-11-19T00:48:55.212Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T00:48:55.212Z] [INFO] 
+============================================================
+[2025-11-19T00:48:55.212Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T00:48:55.212Z] [INFO] ============================================================
+[2025-11-19T00:48:55.212Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T00:50:56.424Z] [INFO] ============================================================
+[2025-11-19T00:50:56.430Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T00:50:56.431Z] [INFO] ============================================================
+[2025-11-19T00:50:56.431Z] [INFO] Mode: PRODUCTION
+[2025-11-19T00:50:56.431Z] [INFO] Test Mode: DISABLED
+[2025-11-19T00:50:56.431Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T00:50:56.431Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T00:50:56.431Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T00:50:56.431Z] [INFO] ============================================================
+
+[2025-11-19T00:50:56.431Z] [INFO] Step 1: City selection...
+[2025-11-19T00:51:00.853Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T00:51:00.854Z] [INFO] Step 2: Loading account configurations...
+[2025-11-19T00:51:00.855Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T00:51:00.855Z] [INFO] Step 3: Initializing state manager...
+[2025-11-19T00:51:00.856Z] [INFO] ✓ State manager initialized
+[2025-11-19T00:51:00.856Z] [INFO] Current state:
+Cycle: 5
+Total Published: 0
+Total Failed: 125
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-04T22:04:31.636Z
+
+[2025-11-19T00:51:00.857Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T00:51:00.857Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-19T00:51:00.857Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T00:51:00.857Z] [INFO] CYCLE 6 STARTING
+[2025-11-19T00:51:00.857Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T00:51:00.857Z] [INFO] Timestamp: 2025-11-19T00:51:00.857Z
+[2025-11-19T00:51:00.857Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T00:51:00.857Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T00:51:02.485Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-19T00:51:02.485Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T00:51:10.904Z] [INFO] ✓ No deletion needed
+[2025-11-19T00:51:10.910Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T00:51:10.910Z] [INFO] 
+============================================================
+[2025-11-19T00:51:10.910Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T00:51:10.910Z] [INFO] ============================================================
+[2025-11-19T00:51:10.910Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T00:51:52.044Z] [INFO] ============================================================
+[2025-11-19T00:56:32.492Z] [INFO] ============================================================
+[2025-11-19T00:56:32.499Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T00:56:32.499Z] [INFO] ============================================================
+[2025-11-19T00:56:32.499Z] [INFO] Mode: PRODUCTION
+[2025-11-19T00:56:32.499Z] [INFO] Test Mode: DISABLED
+[2025-11-19T00:56:32.500Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T00:56:32.500Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T00:56:32.500Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T00:56:32.500Z] [INFO] ============================================================
+
+[2025-11-19T00:56:32.500Z] [INFO] Step 1: City selection...
+[2025-11-19T00:56:46.912Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T00:56:46.913Z] [INFO] Step 2: Loading account configurations...
+[2025-11-19T00:56:46.914Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T00:56:46.914Z] [INFO] Step 3: Initializing state manager...
+[2025-11-19T00:56:46.916Z] [INFO] ✓ State manager initialized
+[2025-11-19T00:56:46.916Z] [INFO] Current state:
+Cycle: 6
+Total Published: 0
+Total Failed: 150
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T00:51:52.042Z
+
+[2025-11-19T00:56:46.916Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T00:56:46.916Z] [INFO] Step 4: Starting infinite automation loop...
+
+[2025-11-19T00:56:46.916Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T00:56:46.916Z] [INFO] CYCLE 7 STARTING
+[2025-11-19T00:56:46.916Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T00:56:46.916Z] [INFO] Timestamp: 2025-11-19T00:56:46.916Z
+[2025-11-19T00:56:46.916Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T00:56:46.916Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T00:56:48.860Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-19T00:56:48.861Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T00:56:58.901Z] [INFO] ✓ No deletion needed
+[2025-11-19T00:56:58.906Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T00:56:58.906Z] [INFO] 
+============================================================
+[2025-11-19T00:56:58.906Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T00:56:58.906Z] [INFO] ============================================================
+[2025-11-19T00:56:58.906Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T01:04:15.120Z] [INFO] ============================================================
+[2025-11-19T01:04:15.127Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T01:04:15.127Z] [INFO] ============================================================
+[2025-11-19T01:04:15.127Z] [INFO] Mode: PRODUCTION
+[2025-11-19T01:04:15.127Z] [INFO] Test Mode: DISABLED
+[2025-11-19T01:04:15.127Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T01:04:15.127Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T01:04:15.127Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T01:04:15.127Z] [INFO] ============================================================
+
+[2025-11-19T01:04:15.127Z] [INFO] Step 1: Product type selection...
+[2025-11-19T01:04:21.006Z] [INFO] ✓ Selected product type: kitchen
+
+[2025-11-19T01:04:21.007Z] [INFO] Step 2: City selection...
+[2025-11-19T01:04:22.521Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T01:04:22.522Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T01:04:22.522Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T01:04:22.523Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T01:04:22.524Z] [INFO] ✓ State manager initialized
+[2025-11-19T01:04:22.525Z] [INFO] Current state:
+Cycle: 6
+Total Published: 0
+Total Failed: 150
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T00:51:52.042Z
+
+[2025-11-19T01:04:22.525Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T01:04:22.525Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T01:04:22.525Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T01:04:22.525Z] [INFO] CYCLE 7 STARTING
+[2025-11-19T01:04:22.525Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T01:04:22.525Z] [INFO] Timestamp: 2025-11-19T01:04:22.525Z
+[2025-11-19T01:04:22.525Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T01:04:22.525Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T01:04:24.516Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-19T01:04:24.517Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T01:04:33.673Z] [INFO] ✓ No deletion needed
+[2025-11-19T01:04:33.678Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T01:04:33.678Z] [INFO] 
+============================================================
+[2025-11-19T01:04:33.678Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T01:04:33.678Z] [INFO] ============================================================
+[2025-11-19T01:04:33.678Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T01:04:33.678Z] [INFO] Product type: kitchen
+[2025-11-19T01:08:42.673Z] [INFO] ============================================================
+[2025-11-19T01:08:42.680Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T01:08:42.680Z] [INFO] ============================================================
+[2025-11-19T01:08:42.680Z] [INFO] Mode: PRODUCTION
+[2025-11-19T01:08:42.680Z] [INFO] Test Mode: DISABLED
+[2025-11-19T01:08:42.680Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T01:08:42.680Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T01:08:42.680Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T01:08:42.680Z] [INFO] ============================================================
+
+[2025-11-19T01:08:42.681Z] [INFO] Step 1: Product type selection...
+[2025-11-19T01:08:45.445Z] [INFO] ✓ Selected product type: kitchen
+
+[2025-11-19T01:08:45.446Z] [INFO] Step 2: City selection...
+[2025-11-19T01:08:46.718Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T01:08:46.718Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T01:08:46.719Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T01:08:46.719Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T01:08:46.721Z] [INFO] ✓ State manager initialized
+[2025-11-19T01:08:46.721Z] [INFO] Current state:
+Cycle: 6
+Total Published: 0
+Total Failed: 150
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T00:51:52.042Z
+
+[2025-11-19T01:08:46.721Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T01:08:46.721Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T01:08:46.721Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T01:08:46.721Z] [INFO] CYCLE 7 STARTING
+[2025-11-19T01:08:46.721Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T01:08:46.721Z] [INFO] Timestamp: 2025-11-19T01:08:46.721Z
+[2025-11-19T01:08:46.721Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T01:08:46.721Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T01:08:48.490Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-19T01:08:48.490Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T01:08:56.438Z] [INFO] ✓ No deletion needed
+[2025-11-19T01:08:56.443Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T01:08:56.443Z] [INFO] 
+============================================================
+[2025-11-19T01:08:56.443Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T01:08:56.443Z] [INFO] ============================================================
+[2025-11-19T01:08:56.443Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T01:08:56.443Z] [INFO] Product type: kitchen
+[2025-11-19T01:13:28.912Z] [INFO] ============================================================
+[2025-11-19T01:13:28.919Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T01:13:28.919Z] [INFO] ============================================================
+[2025-11-19T01:13:28.919Z] [INFO] Mode: PRODUCTION
+[2025-11-19T01:13:28.919Z] [INFO] Test Mode: DISABLED
+[2025-11-19T01:13:28.919Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T01:13:28.919Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T01:13:28.919Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T01:13:28.919Z] [INFO] ============================================================
+
+[2025-11-19T01:13:28.919Z] [INFO] Step 1: Product type selection...
+[2025-11-19T01:13:32.158Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T01:13:32.158Z] [INFO] Step 2: City selection...
+[2025-11-19T01:13:34.288Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T01:13:34.288Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T01:13:34.289Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T01:13:34.289Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T01:13:34.290Z] [INFO] ✓ State manager initialized
+[2025-11-19T01:13:34.291Z] [INFO] Current state:
+Cycle: 6
+Total Published: 0
+Total Failed: 150
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T00:51:52.042Z
+
+[2025-11-19T01:13:34.291Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T01:13:34.291Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T01:13:34.291Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T01:13:34.291Z] [INFO] CYCLE 7 STARTING
+[2025-11-19T01:13:34.291Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T01:13:34.291Z] [INFO] Timestamp: 2025-11-19T01:13:34.291Z
+[2025-11-19T01:13:34.291Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T01:13:34.291Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T01:13:36.026Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T01:13:36.026Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T01:13:44.362Z] [INFO] ✓ No deletion needed
+[2025-11-19T01:13:44.368Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T01:13:44.368Z] [INFO] 
+============================================================
+[2025-11-19T01:13:44.368Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T01:13:44.368Z] [INFO] ============================================================
+[2025-11-19T01:13:44.368Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T01:13:44.368Z] [INFO] Product type: curtains
+[2025-11-19T18:30:00.649Z] [INFO] ============================================================
+[2025-11-19T18:30:00.656Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T18:30:00.656Z] [INFO] ============================================================
+[2025-11-19T18:30:00.656Z] [INFO] Mode: PRODUCTION
+[2025-11-19T18:30:00.656Z] [INFO] Test Mode: DISABLED
+[2025-11-19T18:30:00.656Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T18:30:00.656Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T18:30:00.656Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T18:30:00.656Z] [INFO] ============================================================
+
+[2025-11-19T18:30:00.656Z] [INFO] Step 1: Product type selection...
+[2025-11-19T18:30:05.159Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T18:30:05.159Z] [INFO] Step 2: City selection...
+[2025-11-19T18:30:10.114Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T18:30:10.115Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T18:30:10.115Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T18:30:10.115Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T18:30:10.116Z] [INFO] ✓ State manager initialized
+[2025-11-19T18:30:10.117Z] [INFO] Current state:
+Cycle: 6
+Total Published: 0
+Total Failed: 150
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T00:51:52.042Z
+
+[2025-11-19T18:30:10.117Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T18:30:10.117Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T18:30:10.117Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T18:30:10.117Z] [INFO] CYCLE 7 STARTING
+[2025-11-19T18:30:10.117Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T18:30:10.117Z] [INFO] Timestamp: 2025-11-19T18:30:10.117Z
+[2025-11-19T18:30:10.117Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T18:30:10.117Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T18:30:11.719Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T18:30:11.719Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T18:30:21.367Z] [INFO] ✓ No deletion needed
+[2025-11-19T18:30:21.372Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T18:30:21.372Z] [INFO] 
+============================================================
+[2025-11-19T18:30:21.372Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T18:30:21.372Z] [INFO] ============================================================
+[2025-11-19T18:30:21.372Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T18:30:21.372Z] [INFO] Product type: curtains
+[2025-11-19T18:31:39.326Z] [INFO] ============================================================
+[2025-11-19T18:32:38.541Z] [INFO] ============================================================
+[2025-11-19T18:32:38.546Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T18:32:38.546Z] [INFO] ============================================================
+[2025-11-19T18:32:38.546Z] [INFO] Mode: PRODUCTION
+[2025-11-19T18:32:38.546Z] [INFO] Test Mode: DISABLED
+[2025-11-19T18:32:38.546Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T18:32:38.546Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T18:32:38.546Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T18:32:38.546Z] [INFO] ============================================================
+
+[2025-11-19T18:32:38.546Z] [INFO] Step 1: Product type selection...
+[2025-11-19T18:32:41.336Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T18:32:41.337Z] [INFO] Step 2: City selection...
+[2025-11-19T18:32:43.413Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T18:32:43.413Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T18:32:43.414Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T18:32:43.414Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T18:32:43.415Z] [INFO] ✓ State manager initialized
+[2025-11-19T18:32:43.415Z] [INFO] Current state:
+Cycle: 7
+Total Published: 0
+Total Failed: 175
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T18:31:39.324Z
+
+[2025-11-19T18:32:43.416Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T18:32:43.416Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T18:32:43.416Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T18:32:43.416Z] [INFO] CYCLE 8 STARTING
+[2025-11-19T18:32:43.416Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T18:32:43.416Z] [INFO] Timestamp: 2025-11-19T18:32:43.416Z
+[2025-11-19T18:32:43.416Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T18:32:43.416Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T18:32:45.368Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T18:32:45.369Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T18:32:53.903Z] [INFO] ✓ No deletion needed
+[2025-11-19T18:32:53.908Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T18:32:53.908Z] [INFO] 
+============================================================
+[2025-11-19T18:32:53.908Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T18:32:53.908Z] [INFO] ============================================================
+[2025-11-19T18:32:53.908Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T18:32:53.908Z] [INFO] Product type: curtains
+[2025-11-19T18:38:35.412Z] [INFO] ============================================================
+[2025-11-19T18:38:35.416Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T18:38:35.416Z] [INFO] ============================================================
+[2025-11-19T18:38:35.416Z] [INFO] Mode: PRODUCTION
+[2025-11-19T18:38:35.416Z] [INFO] Test Mode: DISABLED
+[2025-11-19T18:38:35.417Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T18:38:35.417Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T18:38:35.417Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T18:38:35.417Z] [INFO] ============================================================
+
+[2025-11-19T18:38:35.417Z] [INFO] Step 1: Product type selection...
+[2025-11-19T18:38:37.024Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T18:38:37.024Z] [INFO] Step 2: City selection...
+[2025-11-19T18:38:38.466Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T18:38:38.466Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T18:38:38.467Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T18:38:38.467Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T18:38:38.468Z] [INFO] ✓ State manager initialized
+[2025-11-19T18:38:38.468Z] [INFO] Current state:
+Cycle: 7
+Total Published: 0
+Total Failed: 175
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T18:31:39.324Z
+
+[2025-11-19T18:38:38.469Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T18:38:38.469Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T18:38:38.469Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T18:38:38.469Z] [INFO] CYCLE 8 STARTING
+[2025-11-19T18:38:38.469Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T18:38:38.469Z] [INFO] Timestamp: 2025-11-19T18:38:38.469Z
+[2025-11-19T18:38:38.469Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T18:38:38.469Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T18:38:40.748Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T18:38:40.748Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T18:38:48.845Z] [INFO] ✓ No deletion needed
+[2025-11-19T18:38:48.849Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T18:38:48.850Z] [INFO] 
+============================================================
+[2025-11-19T18:38:48.850Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T18:38:48.850Z] [INFO] ============================================================
+[2025-11-19T18:38:48.850Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T18:38:48.850Z] [INFO] Product type: curtains
+[2025-11-19T18:41:29.516Z] [INFO] ============================================================
+[2025-11-19T18:41:29.516Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-19T18:41:29.516Z] [INFO] Published: 1, Failed: 24
+[2025-11-19T18:41:29.516Z] [INFO] ============================================================
+
+[2025-11-19T18:41:29.516Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-19T18:41:29.516Z] [INFO] Next cycle will start at: 2025-11-20T18:41:29.516Z
+
+[2025-11-19T19:34:49.618Z] [INFO] ============================================================
+[2025-11-19T19:34:49.625Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T19:34:49.625Z] [INFO] ============================================================
+[2025-11-19T19:34:49.625Z] [INFO] Mode: PRODUCTION
+[2025-11-19T19:34:49.625Z] [INFO] Test Mode: DISABLED
+[2025-11-19T19:34:49.625Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T19:34:49.625Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T19:34:49.625Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T19:34:49.625Z] [INFO] ============================================================
+
+[2025-11-19T19:34:49.626Z] [INFO] Step 1: Product type selection...
+[2025-11-19T19:34:59.116Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T19:34:59.117Z] [INFO] Step 2: City selection...
+[2025-11-19T19:35:01.331Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T19:35:01.331Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T19:35:01.333Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T19:35:01.333Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T19:35:01.333Z] [INFO] ✓ State manager initialized
+[2025-11-19T19:35:01.334Z] [INFO] Current state:
+Cycle: 7
+Total Published: 0
+Total Failed: 175
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T18:31:39.324Z
+
+[2025-11-19T19:35:01.334Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T19:35:01.334Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T19:35:01.334Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T19:35:01.334Z] [INFO] CYCLE 8 STARTING
+[2025-11-19T19:35:01.334Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T19:35:01.334Z] [INFO] Timestamp: 2025-11-19T19:35:01.334Z
+[2025-11-19T19:35:01.334Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T19:35:01.334Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T19:35:03.406Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T19:35:03.407Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T19:35:13.261Z] [INFO] ✓ No deletion needed
+[2025-11-19T19:35:13.263Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T19:35:13.263Z] [INFO] 
+============================================================
+[2025-11-19T19:35:13.263Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T19:35:13.263Z] [INFO] ============================================================
+[2025-11-19T19:35:13.263Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T19:35:13.263Z] [INFO] Product type: curtains
+[2025-11-19T19:37:42.812Z] [INFO] ============================================================
+[2025-11-19T19:37:42.816Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T19:37:42.816Z] [INFO] ============================================================
+[2025-11-19T19:37:42.816Z] [INFO] Mode: PRODUCTION
+[2025-11-19T19:37:42.816Z] [INFO] Test Mode: DISABLED
+[2025-11-19T19:37:42.817Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T19:37:42.817Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T19:37:42.817Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T19:37:42.817Z] [INFO] ============================================================
+
+[2025-11-19T19:37:42.817Z] [INFO] Step 1: Product type selection...
+[2025-11-19T19:39:07.819Z] [INFO] ✓ Selected product type: kitchen
+
+[2025-11-19T19:39:07.820Z] [INFO] Step 2: City selection...
+[2025-11-19T19:39:09.314Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T19:39:09.315Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T19:39:09.316Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T19:39:09.316Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T19:39:09.317Z] [INFO] ✓ State manager initialized
+[2025-11-19T19:39:09.317Z] [INFO] Current state:
+Cycle: 7
+Total Published: 0
+Total Failed: 175
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T18:31:39.324Z
+
+[2025-11-19T19:39:09.318Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T19:39:09.318Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T19:39:09.318Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T19:39:09.318Z] [INFO] CYCLE 8 STARTING
+[2025-11-19T19:39:09.318Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T19:39:09.318Z] [INFO] Timestamp: 2025-11-19T19:39:09.318Z
+[2025-11-19T19:39:09.318Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T19:39:09.318Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T19:39:11.114Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-19T19:39:11.115Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T19:39:19.793Z] [INFO] ✓ No deletion needed
+[2025-11-19T19:39:19.795Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T19:39:19.795Z] [INFO] 
+============================================================
+[2025-11-19T19:39:19.795Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T19:39:19.795Z] [INFO] ============================================================
+[2025-11-19T19:39:19.795Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T19:39:19.795Z] [INFO] Product type: kitchen
+[2025-11-19T19:41:30.451Z] [INFO] ⏳ Waiting... 22h 59m remaining until next cycle
+[2025-11-19T19:44:20.564Z] [INFO] ============================================================
+[2025-11-19T19:44:20.565Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-19T19:44:20.565Z] [INFO] Published: 2, Failed: 23
+[2025-11-19T19:44:20.565Z] [INFO] ============================================================
+
+[2025-11-19T19:44:20.565Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-19T19:44:20.565Z] [INFO] Next cycle will start at: 2025-11-20T19:44:20.565Z
+
+[2025-11-19T20:25:28.433Z] [INFO] ============================================================
+[2025-11-19T20:25:28.440Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T20:25:28.440Z] [INFO] ============================================================
+[2025-11-19T20:25:28.440Z] [INFO] Mode: PRODUCTION
+[2025-11-19T20:25:28.440Z] [INFO] Test Mode: DISABLED
+[2025-11-19T20:25:28.440Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T20:25:28.440Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T20:25:28.440Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T20:25:28.440Z] [INFO] ============================================================
+
+[2025-11-19T20:25:28.440Z] [INFO] Step 1: Product type selection...
+[2025-11-19T20:25:32.031Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T20:25:32.032Z] [INFO] Step 2: City selection...
+[2025-11-19T20:25:34.470Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T20:25:34.470Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T20:25:34.473Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T20:25:34.473Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T20:25:34.474Z] [INFO] ✓ State manager initialized
+[2025-11-19T20:25:34.474Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-19T20:25:34.475Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T20:25:34.475Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T20:25:34.476Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T20:25:34.476Z] [INFO] CYCLE 9 STARTING
+[2025-11-19T20:25:34.476Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T20:25:34.476Z] [INFO] Timestamp: 2025-11-19T20:25:34.476Z
+[2025-11-19T20:25:34.476Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T20:25:34.476Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T20:25:36.380Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T20:25:36.380Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T20:25:44.452Z] [INFO] ✓ No deletion needed
+[2025-11-19T20:25:44.457Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T20:25:44.458Z] [INFO] 
+============================================================
+[2025-11-19T20:25:44.458Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T20:25:44.458Z] [INFO] ============================================================
+[2025-11-19T20:25:44.458Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T20:25:44.458Z] [INFO] Product type: curtains
+[2025-11-19T20:35:03.620Z] [INFO] ============================================================
+[2025-11-19T20:35:03.627Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T20:35:03.627Z] [INFO] ============================================================
+[2025-11-19T20:35:03.627Z] [INFO] Mode: PRODUCTION
+[2025-11-19T20:35:03.627Z] [INFO] Test Mode: DISABLED
+[2025-11-19T20:35:03.627Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T20:35:03.627Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T20:35:03.627Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T20:35:03.627Z] [INFO] ============================================================
+
+[2025-11-19T20:35:03.627Z] [INFO] Step 1: Product type selection...
+[2025-11-19T20:35:06.907Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T20:35:06.908Z] [INFO] Step 2: City selection...
+[2025-11-19T20:35:09.028Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T20:35:09.028Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T20:35:09.030Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T20:35:09.030Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T20:35:09.030Z] [INFO] ✓ State manager initialized
+[2025-11-19T20:35:09.030Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-19T20:35:09.031Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T20:35:09.031Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T20:35:09.031Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T20:35:09.031Z] [INFO] CYCLE 9 STARTING
+[2025-11-19T20:35:09.031Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T20:35:09.031Z] [INFO] Timestamp: 2025-11-19T20:35:09.031Z
+[2025-11-19T20:35:09.031Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T20:35:09.031Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T20:35:11.633Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T20:35:11.634Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T20:35:21.801Z] [INFO] ✓ No deletion needed
+[2025-11-19T20:35:21.807Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T20:35:21.807Z] [INFO] 
+============================================================
+[2025-11-19T20:35:21.807Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T20:35:21.807Z] [INFO] ============================================================
+[2025-11-19T20:35:21.807Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T20:35:21.807Z] [INFO] Product type: curtains
+[2025-11-19T20:44:21.075Z] [INFO] ⏳ Waiting... 22h 59m remaining until next cycle
+[2025-11-19T20:46:13.339Z] [INFO] ============================================================
+[2025-11-19T20:49:48.152Z] [INFO] ============================================================
+[2025-11-19T20:49:48.162Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-19T20:49:48.162Z] [INFO] ============================================================
+[2025-11-19T20:49:48.162Z] [INFO] Mode: PRODUCTION
+[2025-11-19T20:49:48.162Z] [INFO] Test Mode: DISABLED
+[2025-11-19T20:49:48.162Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-19T20:49:48.162Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-19T20:49:48.162Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-19T20:49:48.162Z] [INFO] ============================================================
+
+[2025-11-19T20:49:48.162Z] [INFO] Step 1: Product type selection...
+[2025-11-19T20:49:55.847Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-19T20:49:55.848Z] [INFO] Step 2: City selection...
+[2025-11-19T20:49:58.967Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-19T20:49:58.967Z] [INFO] Step 3: Loading account configurations...
+[2025-11-19T20:49:58.969Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-19T20:49:58.969Z] [INFO] Step 4: Initializing state manager...
+[2025-11-19T20:49:58.970Z] [INFO] ✓ State manager initialized
+[2025-11-19T20:49:58.970Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-19T20:49:58.970Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-19T20:49:58.970Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-19T20:49:58.970Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-19T20:49:58.970Z] [INFO] CYCLE 9 STARTING
+[2025-11-19T20:49:58.970Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-19T20:49:58.970Z] [INFO] Timestamp: 2025-11-19T20:49:58.970Z
+[2025-11-19T20:49:58.970Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-19T20:49:58.970Z] [INFO] Reading ads from Google Sheets...
+[2025-11-19T20:50:00.737Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-19T20:50:00.737Z] [INFO] Checking if ad deletion is needed...
+[2025-11-19T20:50:08.748Z] [INFO] ✓ No deletion needed
+[2025-11-19T20:50:08.750Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-19T20:50:08.750Z] [INFO] 
+============================================================
+[2025-11-19T20:50:08.750Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-19T20:50:08.750Z] [INFO] ============================================================
+[2025-11-19T20:50:08.750Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-19T20:50:08.750Z] [INFO] Product type: curtains
+[2025-11-20T07:43:30.784Z] [INFO] ============================================================
+[2025-11-20T07:43:30.789Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T07:43:30.789Z] [INFO] ============================================================
+[2025-11-20T07:43:30.789Z] [INFO] Mode: PRODUCTION
+[2025-11-20T07:43:30.790Z] [INFO] Test Mode: DISABLED
+[2025-11-20T07:43:30.790Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T07:43:30.790Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T07:43:30.790Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T07:43:30.790Z] [INFO] ============================================================
+
+[2025-11-20T07:43:30.790Z] [INFO] Step 1: Product type selection...
+[2025-11-20T07:43:32.682Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T07:43:32.682Z] [INFO] Step 2: City selection...
+[2025-11-20T07:43:34.134Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T07:43:34.134Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T07:43:34.135Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T07:43:34.135Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T07:43:34.135Z] [INFO] ✓ State manager initialized
+[2025-11-20T07:43:34.135Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T07:43:34.135Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T07:43:34.136Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T07:43:34.136Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T07:43:34.136Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T07:43:34.136Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T07:43:34.136Z] [INFO] Timestamp: 2025-11-20T07:43:34.136Z
+[2025-11-20T07:43:34.136Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T07:43:34.136Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T07:43:35.550Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-20T07:43:35.550Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T07:43:44.410Z] [INFO] ✓ No deletion needed
+[2025-11-20T07:43:44.415Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T07:43:44.415Z] [INFO] 
+============================================================
+[2025-11-20T07:43:44.415Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T07:43:44.415Z] [INFO] ============================================================
+[2025-11-20T07:43:44.415Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T07:43:44.415Z] [INFO] Product type: curtains
+[2025-11-20T08:27:54.555Z] [INFO] ============================================================
+[2025-11-20T08:27:54.562Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T08:27:54.562Z] [INFO] ============================================================
+[2025-11-20T08:27:54.562Z] [INFO] Mode: PRODUCTION
+[2025-11-20T08:27:54.562Z] [INFO] Test Mode: DISABLED
+[2025-11-20T08:27:54.562Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T08:27:54.562Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T08:27:54.562Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T08:27:54.562Z] [INFO] ============================================================
+
+[2025-11-20T08:27:54.563Z] [INFO] Step 1: Product type selection...
+[2025-11-20T08:27:55.751Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T08:27:55.752Z] [INFO] Step 2: City selection...
+[2025-11-20T08:27:56.998Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T08:27:56.998Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T08:27:57.000Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T08:27:57.000Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T08:27:57.001Z] [INFO] ✓ State manager initialized
+[2025-11-20T08:27:57.002Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T08:27:57.002Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T08:27:57.002Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T08:27:57.002Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T08:27:57.002Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T08:27:57.002Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T08:27:57.002Z] [INFO] Timestamp: 2025-11-20T08:27:57.002Z
+[2025-11-20T08:27:57.002Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T08:27:57.002Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T08:27:58.970Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-20T08:27:58.970Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T08:28:07.677Z] [INFO] ✓ No deletion needed
+[2025-11-20T08:28:07.683Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T08:28:07.683Z] [INFO] 
+============================================================
+[2025-11-20T08:28:07.683Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T08:28:07.683Z] [INFO] ============================================================
+[2025-11-20T08:28:07.683Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T08:28:07.683Z] [INFO] Product type: curtains
+[2025-11-20T08:30:49.982Z] [INFO] ============================================================
+[2025-11-20T08:30:49.983Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-20T08:30:49.983Z] [INFO] Published: 1, Failed: 24
+[2025-11-20T08:30:49.983Z] [INFO] ============================================================
+
+[2025-11-20T08:30:49.983Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-20T08:30:49.983Z] [INFO] Next cycle will start at: 2025-11-21T08:30:49.983Z
+
+[2025-11-20T08:38:46.972Z] [INFO] ============================================================
+[2025-11-20T08:38:46.979Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T08:38:46.979Z] [INFO] ============================================================
+[2025-11-20T08:38:46.979Z] [INFO] Mode: PRODUCTION
+[2025-11-20T08:38:46.979Z] [INFO] Test Mode: DISABLED
+[2025-11-20T08:38:46.979Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T08:38:46.979Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T08:38:46.979Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T08:38:46.979Z] [INFO] ============================================================
+
+[2025-11-20T08:38:46.980Z] [INFO] Step 1: Product type selection...
+[2025-11-20T08:38:50.157Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T08:38:50.157Z] [INFO] Step 2: City selection...
+[2025-11-20T08:39:00.879Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T08:39:00.879Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T08:39:00.881Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T08:39:00.881Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T08:39:00.882Z] [INFO] ✓ State manager initialized
+[2025-11-20T08:39:00.882Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T08:39:00.882Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T08:39:00.882Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T08:39:00.882Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T08:39:00.882Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T08:39:00.882Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T08:39:00.882Z] [INFO] Timestamp: 2025-11-20T08:39:00.882Z
+[2025-11-20T08:39:00.882Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T08:39:00.883Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T08:39:02.411Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-20T08:39:02.411Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T08:39:11.369Z] [INFO] ✓ No deletion needed
+[2025-11-20T08:39:11.371Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T08:39:11.371Z] [INFO] 
+============================================================
+[2025-11-20T08:39:11.371Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T08:39:11.371Z] [INFO] ============================================================
+[2025-11-20T08:39:11.371Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T08:39:11.371Z] [INFO] Product type: curtains
+[2025-11-20T11:52:44.057Z] [INFO] ============================================================
+[2025-11-20T11:52:44.063Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T11:52:44.063Z] [INFO] ============================================================
+[2025-11-20T11:52:44.063Z] [INFO] Mode: PRODUCTION
+[2025-11-20T11:52:44.063Z] [INFO] Test Mode: DISABLED
+[2025-11-20T11:52:44.063Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T11:52:44.063Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T11:52:44.063Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T11:52:44.064Z] [INFO] ============================================================
+
+[2025-11-20T11:52:44.064Z] [INFO] Step 1: Product type selection...
+[2025-11-20T11:54:27.922Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T11:54:27.923Z] [INFO] Step 2: City selection...
+[2025-11-20T11:54:29.423Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T11:54:29.423Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T11:54:29.425Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T11:54:29.425Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T11:54:29.426Z] [INFO] ✓ State manager initialized
+[2025-11-20T11:54:29.426Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T11:54:29.426Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T11:54:29.426Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T11:54:29.426Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T11:54:29.426Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T11:54:29.426Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T11:54:29.426Z] [INFO] Timestamp: 2025-11-20T11:54:29.426Z
+[2025-11-20T11:54:29.426Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T11:54:29.426Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T11:54:41.827Z] [INFO] ✓ Read 75 total ads from sheet
+[2025-11-20T11:54:41.828Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T11:55:08.869Z] [INFO] ✓ No deletion needed
+[2025-11-20T11:55:08.874Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T11:55:08.874Z] [INFO] 
+============================================================
+[2025-11-20T11:55:08.874Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T11:55:08.874Z] [INFO] ============================================================
+[2025-11-20T11:55:08.874Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T11:55:08.874Z] [INFO] Product type: curtains
+[2025-11-20T12:02:11.080Z] [INFO] ============================================================
+[2025-11-20T12:02:11.085Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:02:11.085Z] [INFO] ============================================================
+[2025-11-20T12:02:11.085Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:02:11.085Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:02:11.085Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:02:11.086Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:02:11.086Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:02:11.086Z] [INFO] ============================================================
+
+[2025-11-20T12:02:11.086Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:02:12.782Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T12:02:12.782Z] [INFO] Step 2: City selection...
+[2025-11-20T12:02:13.480Z] [INFO] ============================================================
+[2025-11-20T12:02:13.481Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-20T12:02:13.481Z] [INFO] Published: 2, Failed: 23
+[2025-11-20T12:02:13.481Z] [INFO] ============================================================
+
+[2025-11-20T12:02:13.481Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-20T12:02:13.481Z] [INFO] Next cycle will start at: 2025-11-21T12:02:13.481Z
+
+[2025-11-20T12:02:14.670Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:02:14.670Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:02:14.671Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:02:14.671Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:02:14.671Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:02:14.671Z] [INFO] Current state:
+Cycle: 9
+Total Published: 4
+Total Failed: 221
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-20T12:02:13.479Z
+
+[2025-11-20T12:02:14.672Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:02:14.672Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:02:14.672Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:02:14.672Z] [INFO] CYCLE 10 STARTING
+[2025-11-20T12:02:14.672Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:02:14.672Z] [INFO] Timestamp: 2025-11-20T12:02:14.672Z
+[2025-11-20T12:02:14.672Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:02:14.672Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:02:16.763Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T12:02:16.763Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:03:01.836Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:03:01.838Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:03:01.838Z] [INFO] 
+============================================================
+[2025-11-20T12:03:01.838Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:03:01.838Z] [INFO] ============================================================
+[2025-11-20T12:03:01.838Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:03:01.838Z] [INFO] Product type: curtains
+[2025-11-20T12:10:30.092Z] [ERROR] Uncaught Exception:
+[2025-11-20T12:10:31.338Z] [INFO] ============================================================
+[2025-11-20T12:10:31.344Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:10:31.344Z] [INFO] ============================================================
+[2025-11-20T12:10:31.344Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:10:31.344Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:10:31.344Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:10:31.344Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:10:31.344Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:10:31.345Z] [INFO] ============================================================
+
+[2025-11-20T12:10:31.345Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:10:36.593Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T12:10:36.593Z] [INFO] Step 2: City selection...
+[2025-11-20T12:10:37.872Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:10:37.873Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:10:37.874Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:10:37.874Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:10:37.875Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:10:37.875Z] [INFO] Current state:
+Cycle: 9
+Total Published: 4
+Total Failed: 221
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-20T12:02:13.479Z
+
+[2025-11-20T12:10:37.876Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:10:37.876Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:10:37.876Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:10:37.876Z] [INFO] CYCLE 10 STARTING
+[2025-11-20T12:10:37.876Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:10:37.876Z] [INFO] Timestamp: 2025-11-20T12:10:37.876Z
+[2025-11-20T12:10:37.876Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:10:37.876Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:10:41.601Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T12:10:41.601Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:10:55.037Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:10:55.037Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:10:55.037Z] [INFO] 
+============================================================
+[2025-11-20T12:10:55.037Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:10:55.037Z] [INFO] ============================================================
+[2025-11-20T12:10:55.037Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:10:55.037Z] [INFO] Product type: curtains
+[2025-11-20T12:18:28.830Z] [INFO] ============================================================
+[2025-11-20T12:18:31.259Z] [INFO] ============================================================
+[2025-11-20T12:18:31.264Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:18:31.264Z] [INFO] ============================================================
+[2025-11-20T12:18:31.264Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:18:31.264Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:18:31.264Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:18:31.264Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:18:31.264Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:18:31.264Z] [INFO] ============================================================
+
+[2025-11-20T12:18:31.264Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:19:01.651Z] [INFO] ============================================================
+[2025-11-20T12:19:01.651Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:19:01.651Z] [INFO] ============================================================
+[2025-11-20T12:19:01.651Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:19:01.652Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:19:01.652Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:19:01.652Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:19:01.652Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:19:01.652Z] [INFO] ============================================================
+
+[2025-11-20T12:19:01.652Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:19:08.959Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T12:19:08.960Z] [INFO] Step 2: City selection...
+[2025-11-20T12:19:10.181Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:19:10.181Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:19:10.182Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:19:10.182Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:19:10.184Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:19:10.184Z] [INFO] Current state:
+Cycle: 10
+Total Published: 4
+Total Failed: 246
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-20T12:18:28.828Z
+
+[2025-11-20T12:19:10.184Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:19:10.184Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:19:10.184Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:19:10.184Z] [INFO] CYCLE 11 STARTING
+[2025-11-20T12:19:10.184Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:19:10.184Z] [INFO] Timestamp: 2025-11-20T12:19:10.184Z
+[2025-11-20T12:19:10.184Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:19:10.184Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:19:12.568Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T12:19:12.570Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:19:24.640Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:19:24.645Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:19:24.645Z] [INFO] 
+============================================================
+[2025-11-20T12:19:24.645Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:19:24.645Z] [INFO] ============================================================
+[2025-11-20T12:19:24.645Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:19:24.645Z] [INFO] Product type: curtains
+[2025-11-20T12:21:45.709Z] [ERROR] Uncaught Exception:
+[2025-11-20T12:25:12.249Z] [INFO] ============================================================
+[2025-11-20T12:25:12.254Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:25:12.254Z] [INFO] ============================================================
+[2025-11-20T12:25:12.254Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:25:12.254Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:25:12.254Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:25:12.254Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:25:12.254Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:25:12.254Z] [INFO] ============================================================
+
+[2025-11-20T12:25:12.254Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:25:13.407Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T12:25:13.408Z] [INFO] Step 2: City selection...
+[2025-11-20T12:25:14.399Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:25:14.399Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:25:14.400Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:25:14.400Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:25:14.401Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:25:14.401Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T12:25:14.401Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:25:14.401Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:25:14.401Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:25:14.402Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T12:25:14.402Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:25:14.402Z] [INFO] Timestamp: 2025-11-20T12:25:14.402Z
+[2025-11-20T12:25:14.402Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:25:14.402Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:25:17.023Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T12:25:17.023Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:25:39.507Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:25:39.509Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:25:39.509Z] [INFO] 
+============================================================
+[2025-11-20T12:25:39.509Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:25:39.509Z] [INFO] ============================================================
+[2025-11-20T12:25:39.509Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:25:39.509Z] [INFO] Product type: curtains
+[2025-11-20T12:28:33.865Z] [INFO] ============================================================
+[2025-11-20T12:30:34.626Z] [INFO] ============================================================
+[2025-11-20T12:30:34.633Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:30:34.633Z] [INFO] ============================================================
+[2025-11-20T12:30:34.633Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:30:34.633Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:30:34.633Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:30:34.633Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:30:34.633Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:30:34.633Z] [INFO] ============================================================
+
+[2025-11-20T12:30:34.633Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:30:36.351Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T12:30:36.352Z] [INFO] Step 2: City selection...
+[2025-11-20T12:30:37.334Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:30:37.334Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:30:37.335Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:30:37.335Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:30:37.337Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:30:37.337Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T12:30:37.337Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:30:37.337Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:30:37.337Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:30:37.337Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T12:30:37.337Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:30:37.337Z] [INFO] Timestamp: 2025-11-20T12:30:37.337Z
+[2025-11-20T12:30:37.337Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:30:37.337Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:30:41.044Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T12:30:41.044Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:30:50.041Z] [INFO] ⏳ Waiting... 19h 59m remaining until next cycle
+[2025-11-20T12:31:12.499Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:31:12.499Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:31:12.499Z] [INFO] 
+============================================================
+[2025-11-20T12:31:12.499Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:31:12.499Z] [INFO] ============================================================
+[2025-11-20T12:31:12.499Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:31:12.499Z] [INFO] Product type: curtains
+[2025-11-20T12:32:57.742Z] [INFO] ============================================================
+[2025-11-20T12:32:57.742Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-20T12:32:57.743Z] [INFO] Published: 0, Failed: 25
+[2025-11-20T12:32:57.743Z] [INFO] ============================================================
+
+[2025-11-20T12:32:57.743Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-20T12:32:57.743Z] [INFO] Next cycle will start at: 2025-11-21T12:32:57.743Z
+
+[2025-11-20T12:33:56.044Z] [INFO] ============================================================
+[2025-11-20T12:33:56.048Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:33:56.048Z] [INFO] ============================================================
+[2025-11-20T12:33:56.048Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:33:56.048Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:33:56.048Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:33:56.048Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:33:56.048Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:33:56.048Z] [INFO] ============================================================
+
+[2025-11-20T12:33:56.049Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:33:56.965Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T12:33:56.966Z] [INFO] Step 2: City selection...
+[2025-11-20T12:33:57.998Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:33:57.999Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:33:57.999Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:33:57.999Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:33:58.001Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:33:58.001Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T12:33:58.001Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:33:58.001Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:33:58.001Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:33:58.001Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T12:33:58.001Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:33:58.002Z] [INFO] Timestamp: 2025-11-20T12:33:58.002Z
+[2025-11-20T12:33:58.002Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:33:58.002Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:33:59.586Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T12:33:59.586Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:37:34.675Z] [ERROR] Error checking ads for test acc: Execution context was destroyed, most likely because of a navigation.
+[2025-11-20T12:37:34.677Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:37:34.677Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:37:34.677Z] [INFO] 
+============================================================
+[2025-11-20T12:37:34.677Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:37:34.677Z] [INFO] ============================================================
+[2025-11-20T12:37:34.677Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:37:34.677Z] [INFO] Product type: curtains
+[2025-11-20T12:37:35.268Z] [INFO] ============================================================
+[2025-11-20T12:37:35.268Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-20T12:37:35.268Z] [INFO] Published: 0, Failed: 25
+[2025-11-20T12:37:35.268Z] [INFO] ============================================================
+
+[2025-11-20T12:37:35.269Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-20T12:37:35.269Z] [INFO] Next cycle will start at: 2025-11-21T12:37:35.269Z
+
+[2025-11-20T12:42:47.976Z] [INFO] ============================================================
+[2025-11-20T12:42:47.984Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:42:47.984Z] [INFO] ============================================================
+[2025-11-20T12:42:47.984Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:42:47.984Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:42:47.984Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:42:47.984Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:42:47.984Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:42:47.984Z] [INFO] ============================================================
+
+[2025-11-20T12:42:47.984Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:42:49.171Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T12:42:49.172Z] [INFO] Step 2: City selection...
+[2025-11-20T12:42:50.326Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:42:50.326Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:42:50.327Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:42:50.327Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:42:50.328Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:42:50.328Z] [INFO] Current state:
+Cycle: 9
+Total Published: 2
+Total Failed: 223
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-20T12:37:35.268Z
+
+[2025-11-20T12:42:50.328Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:42:50.328Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:42:50.328Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:42:50.328Z] [INFO] CYCLE 10 STARTING
+[2025-11-20T12:42:50.328Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:42:50.328Z] [INFO] Timestamp: 2025-11-20T12:42:50.328Z
+[2025-11-20T12:42:50.328Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:42:50.328Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:42:52.061Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T12:42:52.061Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:43:14.822Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:43:14.823Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:43:14.824Z] [INFO] 
+============================================================
+[2025-11-20T12:43:14.824Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:43:14.824Z] [INFO] ============================================================
+[2025-11-20T12:43:14.824Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:43:14.824Z] [INFO] Product type: curtains
+[2025-11-20T12:44:31.893Z] [INFO] ============================================================
+[2025-11-20T12:44:31.899Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T12:44:31.899Z] [INFO] ============================================================
+[2025-11-20T12:44:31.899Z] [INFO] Mode: PRODUCTION
+[2025-11-20T12:44:31.899Z] [INFO] Test Mode: DISABLED
+[2025-11-20T12:44:31.899Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T12:44:31.899Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T12:44:31.899Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T12:44:31.900Z] [INFO] ============================================================
+
+[2025-11-20T12:44:31.900Z] [INFO] Step 1: Product type selection...
+[2025-11-20T12:44:33.191Z] [INFO] ✓ Selected product type: kitchen
+
+[2025-11-20T12:44:33.191Z] [INFO] Step 2: City selection...
+[2025-11-20T12:44:34.276Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T12:44:34.276Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T12:44:34.277Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T12:44:34.277Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T12:44:34.278Z] [INFO] ✓ State manager initialized
+[2025-11-20T12:44:34.278Z] [INFO] Current state:
+Cycle: 9
+Total Published: 2
+Total Failed: 223
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-20T12:37:35.268Z
+
+[2025-11-20T12:44:34.278Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T12:44:34.278Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T12:44:34.278Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T12:44:34.278Z] [INFO] CYCLE 10 STARTING
+[2025-11-20T12:44:34.278Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T12:44:34.278Z] [INFO] Timestamp: 2025-11-20T12:44:34.278Z
+[2025-11-20T12:44:34.278Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T12:44:34.278Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T12:44:35.671Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-20T12:44:35.672Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T12:44:45.648Z] [INFO] ✓ No deletion needed
+[2025-11-20T12:44:45.677Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T12:44:45.678Z] [INFO] 
+============================================================
+[2025-11-20T12:44:45.678Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T12:44:45.678Z] [INFO] ============================================================
+[2025-11-20T12:44:45.678Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T12:44:45.678Z] [INFO] Product type: kitchen
+[2025-11-20T12:50:16.093Z] [INFO] ============================================================
+[2025-11-20T12:50:16.094Z] [INFO] PUBLISHING PHASE COMPLETE
+[2025-11-20T12:50:16.094Z] [INFO] Published: 2, Failed: 23
+[2025-11-20T12:50:16.094Z] [INFO] ============================================================
+
+[2025-11-20T12:50:16.095Z] [INFO] 
+⏳ Cycle complete. Sleeping for 1d 0h 0m...
+[2025-11-20T12:50:16.095Z] [INFO] Next cycle will start at: 2025-11-21T12:50:16.095Z
+
+[2025-11-20T13:02:13.976Z] [INFO] ⏳ Waiting... 22h 59m remaining until next cycle
+[2025-11-20T13:19:43.000Z] [INFO] ============================================================
+[2025-11-20T13:19:43.006Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T13:19:43.006Z] [INFO] ============================================================
+[2025-11-20T13:19:43.006Z] [INFO] Mode: PRODUCTION
+[2025-11-20T13:19:43.006Z] [INFO] Test Mode: DISABLED
+[2025-11-20T13:19:43.006Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T13:19:43.006Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T13:19:43.006Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T13:19:43.006Z] [INFO] ============================================================
+
+[2025-11-20T13:19:43.006Z] [INFO] Step 1: Product type selection...
+[2025-11-20T13:19:49.591Z] [INFO] ✓ Selected product type: kitchen
+
+[2025-11-20T13:19:49.591Z] [INFO] Step 2: City selection...
+[2025-11-20T13:19:50.931Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T13:19:50.931Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T13:19:50.931Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T13:19:50.931Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T13:19:50.932Z] [INFO] ✓ State manager initialized
+[2025-11-20T13:19:50.932Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T13:19:50.932Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T13:19:50.932Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T13:19:50.932Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T13:19:50.932Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T13:19:50.932Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T13:19:50.932Z] [INFO] Timestamp: 2025-11-20T13:19:50.932Z
+[2025-11-20T13:19:50.932Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T13:19:50.932Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T13:19:52.300Z] [INFO] ✓ Read 49 total ads from sheet
+[2025-11-20T13:19:52.300Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T13:20:19.601Z] [ERROR] Unhandled Rejection at:
+[2025-11-20T13:20:21.384Z] [INFO] ✓ No deletion needed
+[2025-11-20T13:20:21.384Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T13:20:21.385Z] [INFO] 
+============================================================
+[2025-11-20T13:20:21.385Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T13:20:21.385Z] [INFO] ============================================================
+[2025-11-20T13:20:21.385Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T13:20:21.385Z] [INFO] Product type: kitchen
+[2025-11-20T13:23:04.488Z] [INFO] ============================================================
+[2025-11-20T13:23:04.494Z] [INFO] CONTINUOUS AUTOMATION STARTED
+[2025-11-20T13:23:04.494Z] [INFO] ============================================================
+[2025-11-20T13:23:04.494Z] [INFO] Mode: PRODUCTION
+[2025-11-20T13:23:04.494Z] [INFO] Test Mode: DISABLED
+[2025-11-20T13:23:04.494Z] [INFO] Cycle Duration: 1d 0h 0m
+[2025-11-20T13:23:04.494Z] [INFO] Batch Size: 25 ads per cycle
+[2025-11-20T13:23:04.494Z] [INFO] Deletion Threshold: 45 ads
+[2025-11-20T13:23:04.494Z] [INFO] ============================================================
+
+[2025-11-20T13:23:04.494Z] [INFO] Step 1: Product type selection...
+[2025-11-20T13:23:15.750Z] [INFO] ✓ Selected product type: curtains
+
+[2025-11-20T13:23:15.750Z] [INFO] Step 2: City selection...
+[2025-11-20T13:23:17.117Z] [INFO] ✓ Using 3000 addresses from Москва
+
+[2025-11-20T13:23:17.117Z] [INFO] Step 3: Loading account configurations...
+[2025-11-20T13:23:17.118Z] [INFO] ✓ Loaded 1 enabled account(s)
+
+[2025-11-20T13:23:17.118Z] [INFO] Step 4: Initializing state manager...
+[2025-11-20T13:23:17.118Z] [INFO] ✓ State manager initialized
+[2025-11-20T13:23:17.118Z] [INFO] Current state:
+Cycle: 8
+Total Published: 2
+Total Failed: 198
+Total Deleted: 0
+Started: 2025-11-04T16:56:23.643Z
+Last Cycle: 2025-11-19T19:44:20.561Z
+
+[2025-11-20T13:23:17.119Z] [INFO] ✓ Shutdown handlers configured
+
+[2025-11-20T13:23:17.119Z] [INFO] Step 5: Starting infinite automation loop...
+
+[2025-11-20T13:23:17.119Z] [INFO] 
+████████████████████████████████████████████████████████████
+[2025-11-20T13:23:17.119Z] [INFO] CYCLE 9 STARTING
+[2025-11-20T13:23:17.119Z] [INFO] ████████████████████████████████████████████████████████████
+[2025-11-20T13:23:17.119Z] [INFO] Timestamp: 2025-11-20T13:23:17.119Z
+[2025-11-20T13:23:17.119Z] [INFO] ████████████████████████████████████████████████████████████
+
+[2025-11-20T13:23:17.119Z] [INFO] Reading ads from Google Sheets...
+[2025-11-20T13:23:18.683Z] [INFO] ✓ Read 50 total ads from sheet
+[2025-11-20T13:23:18.684Z] [INFO] Checking if ad deletion is needed...
+[2025-11-20T13:23:26.930Z] [INFO] ✓ No deletion needed
+[2025-11-20T13:23:26.931Z] [INFO] ✓ Selected 25 unpublished ads for publishing
+[2025-11-20T13:23:26.931Z] [INFO] 
+============================================================
+[2025-11-20T13:23:26.931Z] [INFO] PUBLISHING PHASE STARTED
+[2025-11-20T13:23:26.931Z] [INFO] ============================================================
+[2025-11-20T13:23:26.931Z] [INFO] Publishing 25 ads across 1 account(s)
+[2025-11-20T13:23:26.931Z] [INFO] Product type: curtains

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "astute-smile-474621-e4",
+  "private_key_id": "740759e13bbcc44573d87902340aef77fa0528c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCaszaLK26cyFeg\n26RJURerA4rr7NchrQOYIu5u2ipWSwvX4L+Rh2glxkq8/8bTacuFIUStkk2rZdfa\nelvliTiP4xDag107DFm+Lv6T2vAVBsCwrR0vA+G8j5YY78LubPsGMwzUNoMqdQTv\nIsI6hEnubi6wMpmw26KajvZhRhhHuBrr0mKRN8WEl4mDp0ywYwoLpY2iqFZp3vqw\nnKrflrTFvfXiEurAu311WGZf6KTvJpWm02dRldiuFrhDOqDv7ZhjxgnC57D2McRN\nI8FfTIxmBD49OGjIFIprUCYOYdCKkb97JNNL6rgC3t2uqyKbT0QWRJfJNSOvSAqF\nKoNjP08VAgMBAAECggEAAfbloMXKNCZ4jvdLDbQk/HBzuF+poI1Y9bGuuCOAFNhM\n+bMqa5eZYQn9ykGdhIVS5slh3PM/KIerwoiMPFYFGqPKun8M+dANQ/k0XodIs+Xv\nslM4cLjl99zw6aTdyAm69E78E1zv2QiHzkuV6fZ1FirMKR8OzP6it7+VbYAUS5DV\nFclcGa1d0npH+dxtnX6ST7/cavDpC19tE8OZCe3dY65l78hvChBuAWkTYvwTbRKC\napc6eC1LWvM4a1IdM8U12V3nlmPlHD+vNLQV54dSoilWFa4MO4SW/mOpnsH9aZJl\n6FzXlrsc6lbxx5ClmoYsRXzPGTcY0efkdJZ8myT7DwKBgQDQLZ3txsH5zEPMywEQ\nYzb5+RqrIvnp6B95IMxa19axDWvfWdGo41IJB+CZmaeskjbN6CnWmpR2UZERxlbf\nyZYZaZJ+KlJZABs9TKxguHQyfhcCUFXnIAZh6umHUuV8BScoYnzwDqkMSY0hu2kz\ndk1kHHC5f2xfKm0iqeLNg4gu+wKBgQC+PLHdhZClbRsbUACjHKplzDjJ3NplH/rp\nrJwOnDmZeC7JPmE3QLyOB9e/7IqKBCTptIhTFuvoRhCkzie623cC9qxziJIoTY6k\nadJxGIxSJ5Fm2reC9GBD7fNwIarQtkDZWcVeFhVq2qaIZm/1VQUO0MfNDe/0nZi5\nQl7JpxDdLwKBgEYZVjie2Op4ccwf/3e5MOXzj5tY57Zvx0lOVgGw9EYiMtS+te6c\nvR71XBfcua1Ofs3PA2eUHbHJvYOyucYZZ0WfWwjIz3nQo1t82f6nndjyxGSvEH4H\nNp76LzC2JTghtBHROCjNhvbwPWnCZaZCi8TOHtcXpTJWYvFtK0XwqIbJAoGAHtpv\nKnNQG1RPsiVOhSXQCQSPLUYRcZc3NZDWGpSBzv8r712bnL92FT72Yd02Nt4nMnQi\nK/+qsRgz+NaqoOaZLbTeETrUIY86lDXJeKg3kddzAJB2dNm3hyzfb482SfVVHSsv\nFGxWeucNXU/n1o08bcO0s/APu8eXjmxSPThIRucCgYA4pRUSQbJSJn9lIchjCv1D\nxLDy+4Ruuyu/yxO+Ong6VPsq1xXPtH6oAqSw3IeI9aiSpXfqo9CIPlh9UWD9PetC\n7+WEc2c5YIWPTjjQG9vKGzFkjSDKlDsPWZubFTtONMp9epZ2Y8oGmHfzxGb+KiKy\n3WR5bkewvze34xEV6Fxl2g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "avito-79@astute-smile-474621-e4.iam.gserviceaccount.com",
+  "client_id": "118344554687172983644",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/avito-79%40astute-smile-474621-e4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

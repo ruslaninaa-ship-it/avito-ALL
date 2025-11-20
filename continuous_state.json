@@ -1,0 +1,80 @@
+{
+  "currentCycle": 8,
+  "lastCycleTimestamp": "2025-11-19T19:44:20.561Z",
+  "lastDeletionTimestamp": null,
+  "totalPublished": 2,
+  "totalFailed": 198,
+  "totalDeleted": 0,
+  "accountStats": {
+    "7 (901) 078-57-80 Ra13052006": {
+      "totalPublished": 0,
+      "totalFailed": 125,
+      "cycles": 5
+    },
+    "test acc": {
+      "totalPublished": 0,
+      "totalFailed": 25,
+      "cycles": 3
+    }
+  },
+  "cycleHistory": [
+    {
+      "cycleNumber": 1,
+      "timestamp": "2025-11-04T16:58:33.463Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 0
+    },
+    {
+      "cycleNumber": 2,
+      "timestamp": "2025-11-04T17:01:11.805Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 0
+    },
+    {
+      "cycleNumber": 3,
+      "timestamp": "2025-11-04T17:08:20.998Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 201
+    },
+    {
+      "cycleNumber": 4,
+      "timestamp": "2025-11-04T17:32:39.075Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 48
+    },
+    {
+      "cycleNumber": 5,
+      "timestamp": "2025-11-04T22:04:31.636Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 19
+    },
+    {
+      "cycleNumber": 6,
+      "timestamp": "2025-11-19T00:51:52.042Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 41
+    },
+    {
+      "cycleNumber": 7,
+      "timestamp": "2025-11-19T18:31:39.324Z",
+      "published": 0,
+      "failed": 25,
+      "duration": 0
+    },
+    {
+      "cycleNumber": 8,
+      "timestamp": "2025-11-19T19:44:20.561Z",
+      "published": 2,
+      "failed": 23,
+      "duration": 0
+    }
+  ],
+  "startedAt": "2025-11-04T16:56:23.643Z",
+  "lastUpdated": "2025-11-19T19:44:20.562Z"
+}
